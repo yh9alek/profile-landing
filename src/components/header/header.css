@@ -16,11 +16,12 @@ a:visited {
 
 .header {
     height: 60px;
-    backdrop-filter: blur(5px);
-    border-bottom: 1px solid #313131;
+    background-color: #1c1d1e6b;
+    backdrop-filter: blur(7px);
     color: #BBBBBB;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 .header > .cont > .container {
@@ -91,6 +92,7 @@ a:visited {
 }
 
 .header__menu > li > a {
+    font-family: 'Satoshi Medium';
     color: #BBBBBB;
 }
 
@@ -99,7 +101,7 @@ a:visited {
 }
 
 .header__menu > li > a:active {
-    color: #587ce5;
+    color: #5989D1;
 }
 
 .cont {

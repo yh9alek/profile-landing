@@ -3,14 +3,16 @@ a:link, a:visited {
 }
 
 .home {
-    padding-top: 180px;
+    position: relative;
+    padding-top: 190px;
+    background-color: #1C1D1E;
 }
 
 .home > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .home__buttons {
@@ -64,5 +66,31 @@ a:link, a:visited {
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    .home__title {
+        font-size: 40px;
+    }
+
+    .home__desc {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 440px) {
+    .home__title {
+        font-size: 30px;
+    }
+
+    .home__desc {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .home__desc {
+        font-size: 50px;
     }
 }
