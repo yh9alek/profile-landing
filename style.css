@@ -88,3 +88,20 @@ h2 {
 .link:hover {
     border: 1px solid #646669;
 }
+
+.__title {
+    font-family: 'Satoshi Medium';
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.__desc {
+    font-size: 18px;
+    color: #BBBBBB;
+}
+
+@media (max-width: 380px) {
+    .__desc {
+        font-size: 15px;
+    }
+}

@@ -10,7 +10,7 @@ a:link, a:visited {
 
 .home > .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 70px;
 }
@@ -59,6 +59,18 @@ a:link, a:visited {
 .home__left {
     height: 300px;
 }
+
+@keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 @keyframes gradient-move {
     0% {

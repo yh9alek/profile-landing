@@ -1,0 +1,79 @@
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #272829;
+}
+
+.profile__texts {
+    width: 500px;
+}
+
+.profile__top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.profile__name {
+    font-family: 'Satoshi Medium';
+    font-size: 16px;
+    width: max-content;
+    background-color: #272829;
+    border: 1px solid #373839;
+    border-radius: 12px;
+    padding: 8px 14px;
+}
+
+.profile__hobbies {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile__hobbies > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    color: #587CE5;
+    background-color: #272829;
+    border: 1px solid #373839;
+    border-radius: 12px;
+    padding: 5px 5px;
+    transition: all .2s ease-out;
+}
+
+.profile__hobbies > i:hover {
+    font-size: 20px;
+    color: #F15E29;
+}
+
+.asset {
+    width: 100px;
+}
+
+@media (max-width: 700px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile__texts {
+        width: 100%;
+    }
+}
+
+@media (max-width: 487px) {
+    .profile__top {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

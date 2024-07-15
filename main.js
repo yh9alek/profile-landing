@@ -2,6 +2,8 @@ import './style.css';
 import { HeaderComponent } from './src/components/header/header.js';
 import { HomeComponent } from './src/components/home/home.js';
 import { ProyectsComponent } from './src/components/proyects/proyects.js';
+import { AboutComponent } from './src/components/about/about.js';
+import { FooterComponent } from './src/components/footer/footer.js';
 
 /**
  * 
@@ -11,6 +13,8 @@ export const main = (root) => {
     HeaderComponent(root);
     HomeComponent(root);
     ProyectsComponent(root);
+    AboutComponent(root);
+    FooterComponent(root);
 }
 
 main(document.querySelector("#app"));

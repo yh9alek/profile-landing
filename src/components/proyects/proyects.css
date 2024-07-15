@@ -23,17 +23,6 @@
     width: 100%;
 }
 
-.proyect__title {
-    font-family: 'Satoshi Medium';
-    font-size: 30px;
-    padding-bottom: 20px;
-}
-
-.proyect__desc {
-    font-size: 18px;
-    color: #BBBBBB;
-}
-
 .tecnologies {
     display: flex;
     justify-content: flex-start;
@@ -79,12 +68,6 @@
 
     .proyect__figure {
         width: 100%;
-    }
-}
-
-@media (max-width: 380px) {
-    .proyect__desc {
-        font-size: 15px;
     }
 }
 
