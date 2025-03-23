@@ -5,6 +5,7 @@ a:link, a:visited {
 .home {
     position: relative;
     padding-top: 190px;
+    height: 100vh;
     background-color: #1C1D1E;
 }
 
@@ -12,6 +13,7 @@ a:link, a:visited {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 100%;
     padding-bottom: 70px;
 }
 
@@ -26,12 +28,13 @@ a:link, a:visited {
 }
 
 .home__title {
-    font-size: 50px;
-    background: linear-gradient(45deg, #587ce5, #9a34bf, #587ce5, #9a34bf);
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #3364D2, #5243DA);
     background-clip: text;
     background-size: 300% 100%;
     -webkit-text-fill-color: transparent;
-    animation: gradient-move 3s ease infinite;
 }
 
 .home__desc {
@@ -83,7 +86,7 @@ a:link, a:visited {
 
 @media (max-width: 560px) {
     .home__title {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .home__desc {
@@ -93,7 +96,7 @@ a:link, a:visited {
 
 @media (max-width: 440px) {
     .home__title {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .home__desc {
