@@ -20,7 +20,6 @@
                     <li><a href="#inicio">Inicio</a></li>\r
                     <li><a href="#proyectos">Proyectos</a></li>\r
                     <li><a href="#sobremi">Sobre mí</a></li>\r
-                    <li><a href="#contacto">Contacto</a></li>\r
                 </ul>\r
             </div>\r
         </div>\r
@@ -28,11 +27,11 @@
 </header>`,o=e=>{e.innerHTML+=c},l=`<section id="inicio" class="home">\r
     <div class="container">\r
         <div class="home__left">\r
-            <p class="home__title">Software Developer</p>\r
             <p class="home__desc">Yohan Alek</p>\r
+            <p class="home__title">Software Developer</p>\r
             <div class="home__buttons">\r
                 <div class="white-block"></div>\r
-                <a href="#" class="btn buttons__cv">Descargar CV</a>\r
+                <a href="https://raw.githubusercontent.com/yh9alek/miscellaneous/main/src/Personal/src/Yohan%20Alek%20Plazola%20Arangure%20CV%20Espa%C3%B1ol.pdf" class="btn buttons__cv">Descargar CV</a>\r
                 <a target="_blank" href="https://www.linkedin.com/in/yohan-alek-977616296" class="buttons__lin"><i class="bi bi-linkedin"></i></a>\r
                 <a target="_blank" href="https://github.com/yh9alek" class="buttons__git"><i class="bi bi-github"></i></a>\r
             </div>\r
