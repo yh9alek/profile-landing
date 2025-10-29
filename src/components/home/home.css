@@ -24,7 +24,6 @@ a:link, a:visited {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
 }
 
 .home__title {
@@ -41,14 +40,6 @@ a:link, a:visited {
     font-size: 80px;
 }
 
-.white-block {
-    position: absolute;
-    top: 7px; left: 125px;
-    width: 32px;
-    height: 32px;
-    background-color: #fff;
-}
-
 .buttons__lin {
     font-size: 34px;
     color: #0A66C2 !important;
@@ -57,10 +48,12 @@ a:link, a:visited {
 
 .buttons__git {
     font-size: 34px;
+    margin-left: 15px;
 }
 
 .home__left {
     height: 300px;
+    margin-top: -60px;
 }
 
 @keyframes move {
