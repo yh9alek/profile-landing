@@ -31,13 +31,12 @@
             <p class="home__title">Software Developer</p>\r
             <div class="home__buttons">\r
                 <div class="white-block"></div>\r
-                <a href="https://raw.githubusercontent.com/yh9alek/miscellaneous/main/src/Personal/src/Yohan%20Alek%20Plazola%20Arangure%20CV%20Espa%C3%B1ol.pdf" class="btn buttons__cv">Descargar CV</a>\r
-                <a target="_blank" href="https://www.linkedin.com/in/yohan-alek-977616296" class="buttons__lin"><i class="bi bi-linkedin"></i></a>\r
+                <a href="https://raw.githubusercontent.com/yh9alek/miscellaneous/main/src/Personal/src/Yohan%20Alek%20Plazola%20Arangure%20CV.pdf" class="btn buttons__cv">Descargar CV</a>\r
                 <a target="_blank" href="https://github.com/yh9alek" class="buttons__git"><i class="bi bi-github"></i></a>\r
             </div>\r
         </div>\r
         <div class="home__right">\r
-            \r
+            <img src="https://www.php.net/images/logos/php-logo-white.svg" alt="">\r
         </div>\r
     </div>\r
 </section>`,d=e=>{e.innerHTML+=l},p=`<section id="proyectos" class="proyects">\r
